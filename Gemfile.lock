@@ -1,0 +1,31 @@
+GIT
+  remote: git://github.com/vinibaggio/outpost.git
+  revision: 5816f06e4ace6b9abf1bbf336c29399b65ea27f0
+  specs:
+    outpost (0.2.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    i18n (0.6.0)
+    mail (2.3.0)
+      i18n (>= 0.4.0)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
+    mime-types (1.16)
+    mysql2 (0.3.2)
+    net-ldap (0.2.2)
+    net-ping (1.5.0)
+      net-ldap (~> 0.2.2)
+    polyglot (0.3.1)
+    treetop (1.4.9)
+      polyglot (>= 0.3.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mail
+  mysql2
+  net-ping
+  outpost!
